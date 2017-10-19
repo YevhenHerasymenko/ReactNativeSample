@@ -10,6 +10,7 @@ import {
 export default class ProfileScreen extends Component {
   static navigationOptions = {
     title: 'Text Screen',
+    headerBackTitle: 'dfdsf',
   };
   render() {
     const { navigate } = this.props.navigation;

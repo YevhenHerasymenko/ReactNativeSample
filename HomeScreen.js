@@ -10,6 +10,7 @@ import {
 export default class HomeScreen extends Component {
   static navigationOptions = {
     title: 'Welcome',
+    headerBackTitle: 'dsfsdf'
   };
   render() {
     const { navigate } = this.props.navigation;
