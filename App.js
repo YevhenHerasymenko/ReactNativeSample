@@ -12,7 +12,7 @@ import HomeScreen from './HomeScreen'
 import ProfileScreen from './ProfileScreen'
 
 const SimpleApp = StackNavigator({
-  Home: { screen: HomeScreen, headerBackTitle: 'dsfsdf' },
+  Home: { screen: HomeScreen, navigationOptions: { headerBackTitle: "test"} },
   Profile: { screen: ProfileScreen, headerBackTitle: 'dsfsdf' },
   Home2: { screen: HomeScreen },
 });
