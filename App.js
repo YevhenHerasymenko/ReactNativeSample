@@ -15,7 +15,7 @@ const SimpleApp = StackNavigator({
   Home: { screen: HomeScreen },
   Profile: { screen: ProfileScreen },
 });
-
+  
 export default class App extends Component {
   render() {
     return <SimpleApp />;
